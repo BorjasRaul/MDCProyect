@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Ropa>
+	<Menu>
+		<menu Url="/Default.aspx?Id=0" Texto="Home" Id="0"></menu>
+		<menu Url="/Default.aspx?Id=1" Texto="Shop" Id="1"></menu>
+		<menu Url="/Default.aspx?Id=2" Texto="Contacto" Id="2"></menu>
+		<menu Url="/Default.aspx?Id=3" Texto="Play" Id="3"></menu>
+	</Menu>
+	<Modelo nombre="Casual" Orden="1">
+		<Material nombre="Algodon">
+			<Tipo nombre="Vestido Juvenil">
+				<Nombre>Vestido Juvenil</Nombre>
+				<codigo>JUN3001</codigo>
+				<Descripcion>
+					VESTIDO HUESO CON FLORES
+				</Descripcion>
+				<Caracteristicas>
+					<Talla>Chica,mediana,Grande,ExtraGrande</Talla>
+					<Color>Hueso,Negro</Color>
+					<Estampado>HOJAS VERDES AMARILLAS</Estampado>
+				</Caracteristicas>
+				<Precio><![CDATA[$]]>390</Precio>
+				<Imagen>assets/img/IMG2.jpeg</Imagen>
+			</Tipo>
+			<Tipo nombre="Vestido sublimado">
+				<Nombre>Vestido Manga Corta</Nombre>
+				<codigo>JUN3002</codigo>
+				<Descripcion>VESTIDO MANGA CORTA MICKEY MOUSE</Descripcion>
+				<Caracteristicas>
+					<Talla>Chica,mediana,Grande</Talla>
+					<Color>Verde</Color>
+					<Estampado>SUBLIMADO MICKEY MOUSE</Estampado>
+				</Caracteristicas>
+				<Precio><![CDATA[$]]>290</Precio>
+				<Imagen>assets/img/IMG59.jpg</Imagen>
+			</Tipo>
+			<Tipo nombre="Blusas">
+				<Nombre>Blusa manga corta </Nombre>
+				<codigo>
+					jun3002
+				</codigo>
+				<Descripcion>Blusa manga corta Floreada</Descripcion>
+				<Caracteristicas>
+					<Talla>Mediana</Talla>
+					<Color>Rosa</Color>
+				</Caracteristicas>
+				<Precio>$180</Precio>
+				<Imagen>assets/img/IMG1.jpeg</Imagen>
+
+			</Tipo>
+			<Tipo nombre="Short">
+				<Nombre>Short tela</Nombre>
+				<codigo>
+					jun3003
+				</codigo>
+				<Descripcion>Short Tela Color azul</Descripcion>
+				<Caracteristicas>
+					<Talla>Chica</Talla>
+					<Color>Azul</Color>
+				</Caracteristicas>
+				<Precio>$230</Precio>
+				<Imagen>assets/img/58.jpg</Imagen>
+			</Tipo>
+		</Material>
+		<Material nombre="Mezclilla">
+			<Tipo nombre="Vestido">
+				<Nombre>Vestido Largo</Nombre>
+				<codigo>V010912</codigo>
+				<Descripcion>Vestido largo manga corta </Descripcion>
+				<Caracteristicas>
+					<Talla>Media</Talla>
+					<Color>azul mezclilla</Color>
+				</Caracteristicas>
+				<Precio>$320</Precio>
+				<Imagen>assets/img/IMG19.jpeg</Imagen>
+
+			</Tipo>
+			<Tipo nombre="Blusas">
+				<Nombre>Blusa Mezclilla</Nombre>
+				<codigo>Bl010913</codigo>
+				<Descripcion>Blusa mezclilla manga corta</Descripcion>
+				<Caracteristicas>
+					<Talla>Mediana</Talla>
+					<Color>Negro</Color>
+				</Caracteristicas>
+				<Precio>$150</Precio>
+				<Imagen>assets/img/IMG60.jpg</Imagen>
+
+			</Tipo>
+			<Tipo nombre="Short">
+				<Nombre>Short Corto</Nombre>
+				<codigo>
+					jun3004
+				</codigo>
+				<Descripcion> short de mezclilla corto</Descripcion>
+				<Caracteristicas>
+					<Talla>#5</Talla>
+					<Color>Negro</Color>
+				</Caracteristicas>
+				<Precio>$280</Precio>
+				<Imagen>assets/img/IMG57.jpeg</Imagen>
+			</Tipo>
+		</Material>
+		<Imagen>assets/img/IMG56.jpg</Imagen>
+	</Modelo>
+	<Modelo nombre="Formal" Orden="2">
+		<Tipo nombre="Vestidos Exclusivos" Exclusivos="SI">
+			<Nombre>Vestido Formal Escote Espalda</Nombre>
+			<codigo>jun30015
+			</codigo>
+			<Descripcion>Vestido Formal Escote en espalda </Descripcion>
+			<Caracteristicas>
+				<Talla>Mediano</Talla>
+				<Color>Azul Rey</Color>
+			</Caracteristicas>
+			<Precio>$510</Precio>
+			<Imagen>assets/img/IMG48.jpeg</Imagen>
+		</Tipo>
+		<Tipo nombre="Vestidos">
+			<Nombre>Vestido Formal Abertura</Nombre>
+			<codigo>jun30014
+			</codigo>
+			<Descripcion>Vestido Formal Abertura en pierna </Descripcion>
+			<Caracteristicas>
+				<Talla>Mediano</Talla>
+				<Color>Verde Botella</Color>
+			</Caracteristicas>
+			<Precio>$480</Precio>
+			<Imagen>assets/img/IMG47.jpeg</Imagen>
+		</Tipo>
+		<Tipo nombre="Conjunto">
+			<Nombre>Conjunto 3 piezas</Nombre>
+			<codigo>jun30013
+			</codigo>
+			<Descripcion>Conjunto 3 piezas Vino</Descripcion>
+			<Caracteristicas>
+				<Talla>Mediano</Talla>
+				<Color>Vino</Color>
+			</Caracteristicas>
+			<Precio>$380</Precio>
+			<Imagen>assets/img/IMG10.jpeg</Imagen>
+		</Tipo>
+		<Tipo nombre="Saco">
+			<Nombre>Saco Formal </Nombre>
+			<codigo>jun30012
+			</codigo>
+			<Descripcion>Saco Formal</Descripcion>
+			<Caracteristicas>
+				<Talla>Grande</Talla>
+				<Color>Rojo</Color>
+			</Caracteristicas>
+			<Precio>$340</Precio>
+			<Imagen>assets/img/IMG34.jpeg</Imagen>
+		</Tipo>
+		<Tipo nombre="Palazzo">
+			<Nombre>Palazzo Estampado Flores</Nombre>
+			<codigo>jun30011
+			</codigo>
+			<Descripcion>Palazzo Estampado flores</Descripcion>
+			<Caracteristicas>
+				<Talla>Mediano</Talla>
+				<Color>Azul Marino</Color>
+			</Caracteristicas>
+			<Precio>$380</Precio>
+			<Imagen>assets/img/IMG8.jpeg</Imagen>
+		</Tipo>
+		<Imagen>assets/img/IMG55.jpeg</Imagen>
+	</Modelo>
+	<Modelo nombre="Embarazada" Orden="3">
+		<Material nombre="Algodon">
+			<Tipo nombre="Vestido embarazada">
+				<Nombre>Vestido embarazada</Nombre>
+				<codigo>
+					jun3005
+				</codigo>
+				<Descripcion>Vestido Embarazada Largo</Descripcion>
+				<Caracteristicas>
+					<Talla>ExtraGrande</Talla>
+					<Color>Rosa</Color>
+				</Caracteristicas>
+				<Precio>$280</Precio>
+				<Imagen>assets/img/IMG4.jpeg</Imagen>
+
+			</Tipo>
+			<Tipo nombre="Blusas embarazada">
+				<Nombre>Blusa Embarazada manga corta</Nombre>
+				<codigo>
+					jun3006
+				</codigo>
+				<Descripcion>Blusa Embarazada huevo sorpresa </Descripcion>
+				<Caracteristicas>
+					<Talla>Grande</Talla>
+					<Color>Fiusha</Color>
+				</Caracteristicas>
+				<Precio>$280</Precio>
+				<Imagen>assets/img/IMG5.jpeg</Imagen>
+			</Tipo>
+			<Tipo nombre="Blusa Embarazada">
+				<Nombre>Blusa Embarazada hallowen</Nombre>
+				<codigo>jun3007
+				</codigo>
+				<Descripcion>Blusa Embarazada huesitos Niña</Descripcion>
+				<Caracteristicas>
+					<Talla>Grande</Talla>
+					<Color>Azul marino</Color>
+				</Caracteristicas>
+				<Precio>$280</Precio>
+				<Imagen>assets/img/IMG24.jpeg</Imagen>
+			</Tipo>
+			<Tipo nombre="Short">
+				<Nombre>Short Maternidad Elastico</Nombre>
+				<codigo>jun3008
+				</codigo>
+				<Descripcion>Short Maternidad Elastico Cintura</Descripcion>
+				<Caracteristicas>
+					<Talla>Mediana</Talla>
+					<Color>Azul Marino</Color>
+				</Caracteristicas>
+				<Precio>$260</Precio>
+				<Imagen>assets/img/IMG22.jpeg</Imagen>
+			</Tipo>
+		</Material>
+		<Material nombre="Mezclilla">
+			<Tipo nombre="Vestido">
+				<Nombre>Vestido Mezclilla Bordado</Nombre>
+				<codigo>
+					jun3009
+				</codigo>
+				<Descripcion></Descripcion>
+				<Caracteristicas>
+					<Talla>Grande</Talla>
+					<Color>Azul Marino</Color>
+				</Caracteristicas>
+				<Precio>$380</Precio>
+				<Imagen>assets/img/IMG61.jpg</Imagen>
+
+			</Tipo>
+			<Tipo nombre="Blusas">
+				<Nombre>Blusas Embarazada </Nombre>
+				<codigo>
+					jun3010
+				</codigo>
+				<Descripcion>Blusas Embarazada Mezclilla</Descripcion>
+				<Caracteristicas>
+					<Talla>Mediana</Talla>
+					<Color>Azul Claro</Color>
+				</Caracteristicas>
+				<Precio>$310</Precio>
+				<Imagen>assets/img/IMG62.jpg</Imagen>
+
+			</Tipo>
+		</Material>
+	</Modelo>
+	<Modelo nombre="Frio" Orden="4">
+		<Tipo nombre="Chamarra">
+			<Nombre>Chamarra Gruesa </Nombre>
+			<codigo>
+				jun30015
+			</codigo>
+			<Descripcion>Chamarra gruesa con gorro </Descripcion>
+			<Caracteristicas>
+				<Talla>Grande</Talla>
+				<Color>Vino</Color>
+			</Caracteristicas>
+			<Precio>$520</Precio>
+			<Imagen>assets/img/IMG29.jpeg</Imagen>
+
+		</Tipo>
+		<Tipo nombre="Sudadera">
+			<Nombre>Sudadera Dama Estampado</Nombre>
+			<codigo>
+				jun30017
+			</codigo>
+			<Descripcion>Sudadera Dama Estamapada</Descripcion>
+			<Caracteristicas>
+				<Talla>Grande</Talla>
+				<Color>Vino/Blanco</Color>
+			</Caracteristicas>
+			<Precio>$350</Precio>
+			<Imagen>assets/img/IMG38.jpeg</Imagen>
+
+		</Tipo>
+	</Modelo>
+	<Accesorios>
+		<Tipo nombre="Diademas">
+			<Descripcion></Descripcion>
+			<Precio></Precio>
+			<Imagen>assets/img/Ac5.jpeg</Imagen>
+		</Tipo>
+		<Tipo nombre="Gorra Dragon Ball">
+			<Descripcion></Descripcion>
+			<Precio></Precio>
+			<Imagen>assets/img/Ac2.jpeg</Imagen>
+		</Tipo>
+		<Tipo nombre="Pulcera">
+			<Descripcion></Descripcion>
+			<Precio></Precio>
+			<Imagen>assets/img/Ac4.jpeg</Imagen>
+		</Tipo>
+		<Tipo nombre="Collar y Aretes">
+			<Descripcion>Collar de Acero inoxidable</Descripcion>
+			<Precio>$180</Precio>
+			<Imagen>assets/img/Ac1.jpeg</Imagen>
+		</Tipo>
+	</Accesorios>
+</Ropa>
