@@ -19,28 +19,12 @@ if (contador >= 0 && contador != null) {
 } 
 
 
-// Manejador de eventos general para todos los enlaces
-//document.addEventListener('click', function (event) {
-//    if (event.target.tagName === 'A' && event.target.href != null) {
-//        event.preventDefault(); // Prevenir la recarga de la página
-//        // Aquí puedes manejar el evento onclick según sea necesario
-//        if (event.target.id === 'cartLink') {
-//            addToCart('Producto');
-//        } else {
-           
-//            console.log('Enlace clicado:', contador);
-//            updateCart()
-//            window.location.href = event.target.href;
-
-//        }
-//    }
-//});
-
 function addToCart(product) {
     cart.push(product);
     contador = document.getElementById('cartItems2').Value
     //contador = localStorage.getItem('cartItems2') ? parseInt(localStorage.getItem('cartItems2')) : 0;
     updateCart();
+    mostrar("success", "Listo", "Agregado OK");
 }
 
 function updateCart() {
@@ -62,7 +46,7 @@ function updateCart() {
     localStorage.setItem('cartItems2', cart.length);
     //localStorage.setItem = cartItems2.innerHTML;
     // Mostrar un mensaje de confirmación usando SweetAlert
-    mostrar("success", "Listo", `${productName} agregado al carrito`);
+    
 
    
 }
